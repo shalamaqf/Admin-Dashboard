@@ -36,3 +36,11 @@ header {
 .buttons-info {
   display: flex;
 }
+
+/* Sidebar Section Layout */
+.sidebar,
+.first-nav ul,
+.second-nav ul {
+  display: flex;
+  flex-direction: column;
+}
