@@ -50,6 +50,10 @@ main {
   flex-direction: column;
 }
 
+.nav-wrapper {
+  flex-grow: 1;
+}
+
 /* Main Content Section Layout */
 main {
   display: grid;
