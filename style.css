@@ -60,6 +60,9 @@ main {
 .articles {
   grid-column: 1;
   grid-row: 1 / 3;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .announcements {
@@ -70,4 +73,12 @@ main {
 .trends {
   grid-column: 2;
   grid-row: 2;
+}
+
+/* Articles Section */
+.articles-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+  flex-grow: 1;
 }
