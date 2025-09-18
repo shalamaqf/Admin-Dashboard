@@ -68,6 +68,9 @@ main {
 .announcements {
   grid-column: 2;
   grid-row: 1;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .trends {
@@ -79,6 +82,15 @@ main {
 .articles-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+  flex-grow: 1;
+}
+
+/* Announcements Section */
+.announcements-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
 
   flex-grow: 1;
 }
