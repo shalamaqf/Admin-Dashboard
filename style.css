@@ -261,3 +261,57 @@ header {
   border-radius: 17px;
   background-color: #27408B;
 }
+
+
+/* Styling Sidebar Section */
+.sidebar {
+  background-color: #27408B;
+}
+
+.brand-logo {
+  filter: invert(1);
+}
+
+.nav-wrapper .icon {
+  filter: invert(1);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+
+  padding: 0.7em 1em;
+  gap: 0.8em;
+
+  color: white;
+}
+
+.nav-wrapper li {
+  list-style-type: none;
+}
+
+.nav-wrapper a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  padding: 2em 2em;
+}
+
+.first-nav {
+  margin-bottom: 4em;
+}
+
+a .icon {
+  margin-right: 1.5em;
+}
+
+a span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
