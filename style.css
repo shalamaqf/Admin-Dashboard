@@ -183,6 +183,12 @@ main {
 
 
 /* Styling Header Section */
+header {
+  position: relative;
+  box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
 .header__controls {
   justify-content: space-between;
   align-items: center;
@@ -217,4 +223,41 @@ main {
 .user-name {
   font-size: 1rem;
   font-weight: bold;
+}
+
+.header__intro {
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1em 2em;
+}
+
+.user-greeting {
+  justify-content: center;
+  align-items: center;
+
+  gap: 1em;
+}
+
+.greeting-message h3 {
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+}
+
+.buttons-info {
+  padding-right: 3em;
+  gap: 1.5em;
+}
+
+.new,
+.upload,
+.share {
+  padding: 0.5em 2em;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+
+  border: none;
+  border-radius: 17px;
+  background-color: #27408B;
 }
