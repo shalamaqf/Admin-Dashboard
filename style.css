@@ -18,7 +18,7 @@ body {
   height: 100vh;
 
   display: grid;
-  grid-template-columns: minmax(250px, 1fr) 4fr;
+  grid-template-columns: minmax(250px, 1fr) 5fr;
   grid-template-rows: auto 1fr;
 }
 
@@ -156,4 +156,26 @@ main {
 .trends a img {
   width: 3em;
   height: 3em;
+}
+
+
+/* Style temporary */
+header {
+  background-color: white;
+}
+
+.sidebar {
+  background-color: aquamarine;
+}
+
+main {
+  background-color: cadetblue;
+}
+
+.announcements {
+  background-color: cornflowerblue;
+}
+
+.trends {
+  background-color: cyan;
 }
