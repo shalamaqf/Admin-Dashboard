@@ -115,3 +115,45 @@ main {
 
   flex-grow: 1;
 }
+
+
+/* Adjust icons and images */
+.search-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.notif-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.profile-picture {
+  width: 3em;
+  height: 3em;
+}
+
+.header__intro .profile-picture {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+.brand-logo {
+  width: 5em;
+  height: 5em;
+}
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.card__controls button {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.trends a img {
+  width: 3em;
+  height: 3em;
+}
