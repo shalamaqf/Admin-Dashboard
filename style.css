@@ -179,3 +179,42 @@ main {
 .trends {
   background-color: cyan;
 }
+
+
+
+/* Styling Header Section */
+.header__controls {
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.7em 2em;
+}
+
+.search {
+  align-items: center;
+
+  gap: 1em;
+  flex: 1 1 30%;
+}
+
+.search input {
+  min-width: 50em;
+  min-height: 2em;
+  border: none;
+  border-radius: 12px;
+
+  padding-left: 1em;
+  background-color: #AAB8C2;
+}
+
+.info {
+  align-items: center;
+
+  gap: 2em;
+  padding-right: 3em;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
