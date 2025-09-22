@@ -231,6 +231,7 @@ header {
 
   gap: 2em;
   padding-right: 3em;
+  margin-left: 1em;
 }
 
 .user-name {
@@ -259,6 +260,7 @@ header {
 
 .buttons-info {
   padding-right: 3em;
+  margin-left: 1em;
   gap: 1.5em;
 }
 
