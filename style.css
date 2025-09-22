@@ -335,6 +335,7 @@ a span {
   background-color: #F0F4F8;
 
   padding: 2em 1em;
+  overflow: auto;
 }
 
 .articles h3 {
@@ -374,3 +375,5 @@ a span {
 
   margin-top: 0.5em;
 }
+
+/* Make overflow if needed || continue the announcement section */
