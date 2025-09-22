@@ -359,7 +359,7 @@ a span {
   border-radius: 8px;
   border-bottom: 3em solid #27408B;
 
-  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 .card__controls {
@@ -376,4 +376,42 @@ a span {
   margin-top: 0.5em;
 }
 
-/* Make overflow if needed || continue the announcement section */
+
+/* Styling Announcements Section */
+.announcements {
+  background-color: #F0F4F8;
+  padding: 2em 1em;
+}
+
+.announcements-wrapper {
+  background-color: white;
+  min-width: 250px;
+  min-height: 250px;
+  margin-top: 1em;
+  margin-right: 2.5em;
+  padding: 1.5em 2em;
+
+  overflow: auto;
+
+  border-radius: 8px;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.announcements-wrapper p {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 0.3em;
+  padding-bottom: 0.4em;
+}
+
+.announcement:first-child, 
+.announcement:nth-child(2) {
+  border-bottom: 2px solid #F0F4F8;
+}
+
