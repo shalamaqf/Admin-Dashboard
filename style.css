@@ -417,3 +417,51 @@ a span {
   border-bottom: 2px solid #F0F4F8;
 }
 
+
+/* Styling Trends Section */
+.trends {
+  background-color: #F0F4F8;
+  padding: 2em 1em;
+  margin-top: -1em;
+}
+
+.trends-wrapper {
+  background-color: white;
+  min-width: 250px;
+  min-height: 250px;
+  margin-top: 1em;
+  margin-right: 2.5em;
+  padding: 1em 2em;
+
+  overflow: auto;
+
+  border-radius: 8px;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.trend  {
+  margin-bottom: 0.2em;
+}
+
+.trend a {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+}
+
+.trend img {
+  max-width: 3em;
+}
+
+.other-user-info p:first-child {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 600;
+}
+
+.other-user-info p:last-child {
+  font-size: 0.8rem;
+  color: gray;
+}
+
